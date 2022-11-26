@@ -1,0 +1,68 @@
+--- 
+title: "Bookdown de NOME-PRODUTO"
+author: "Daniel Claudino"
+date: "`r Sys.Date()`"
+output: pdf_document
+documentclass: book
+bibliography:
+- referencias.bib
+- packages.bib
+# cover-image: "imagens/capa-livro.png"
+description: |
+  Neste material, estão contidos um dos produtos(materiais) contidos abaixo.
+link-citations: yes
+lang: "pt-BR"
+site: bookdown::bookdown_site
+always_allow_html: true
+---
+
+# Apresentação
+
+<center><h2>Bookdown dos(as) NOME-DO-PRODUTO</h2></center>
+
+```{r echo=FALSE, fig.show="hold", out.width="50%", fig.align = "center", fig.cap="Autor"}
+knitr::include_graphics("imagens/FOTO-PERFIL-DANIEL-CLAUDINO-2020.png")
+```
+
+* Neste bookdown estarão contidos quaisquer **tipos de produtos** relacionados abaixo. Cada **tipo de produto** podera estar relacionado a uma ou mais disciplinas, desde o 1º até o 4º ano do curso de Ciência da Computação:
+  * Notas de Aula
+  * Resumos de capítulos de livros;
+  * Resumos de apresentações(slides) da disciplina;
+  * Minhas apresentações(slides);
+    * Audience Q&A (Permite que o público das apresentação envie perguntas para o apresntador)
+    * Live Polls (Permite que o público das apresntações realize votações sobre os temas apresentados)
+    * Quiz (Permite que o público das apresentações participe de competições integrando-se e assimilando melhor os temas apresentados)
+  * Exercícios (elaborados/disponibilizados pelos professores, respondidos ou não em sala);
+  * Questionários para as provas;
+  * Formulários de pesquisa (Google Forms)
+    * Elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Coletas de dados
+    * Realizadas por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina; dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Planilhas Eletrônicas
+    * Elaborados por mim para atendimento de necessidades dos dos meus colegas de sala, dos professores ou da disciplina;
+  * Filmes, Documentários e outros vídeos
+    * Recomendados pelos professores, pelos colegas ou por mim;
+  * Jogos de aprendizado criados
+    * (Kahoots / Site principal: kahoot.com / Login do jogador: kahoot.it)
+  * Outros materiais elaborados e disponibilizados pelos professores e por mim.
+  
+Obs: Poderão também ser disponibilizados materiais de outros colegas de curso (com autorização prévia).
+
+## Controle de Versão
+
+|Versão| Data / Hora | Colaborador | Descrição da Contribuição
+|:--|:--|:--|:--|
+| 0.1 | dd/mm/aaaa xxh00 | [Daniel Claudino](https://wa.me/5583988853815) | Versão inicial do documento|
+
+
+## Observação Importante
+
+**<amarelo>NOTA</amarelo>**: Este material tem como finalidade auxiliar a fixação de assuntos estudados em sala de aula de acordo com o </amarelo>**plano de ensino desta disciplina**</amarelo>.
+
+Ele <amarelo>**não deve ser**</amarelo> utilizado como <amarelo>**único material de estudo para a prova**</amarelo>, então:
+
+1. Consulte os **slides da professora** na plataforma FTM;  
+2. Faça **notas de aula** do que for tratado em sala de aula;  
+3. Consulte nossas **notas de aula**;
+
+> **Dúvidas**: <amarelo>Devem ser encaminhadas no grupo de whatsapp da disciplina.</amarelo>
